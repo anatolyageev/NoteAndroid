@@ -85,14 +85,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         >
 
-        <ImageView
+        <Button
             android:id="@+id/addNote"
-            android:layout_width="@dimen/_23sdp"
-            android:layout_height="@dimen/_23sdp"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/ic_add_outline"
-            android:layout_marginStart="@dimen/_15sdp"
-            app:tint="@color/colorIcons" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu"
+            android:textColor="@color/colorWhite"
+            android:text="@string/new_note" />
 
     </LinearLayout>
 
