@@ -274,23 +274,23 @@ public class CreateNoteActivity extends AppCompatActivity {
             setColorChosen(index);
         }
 
-        optionsLayout.findViewById(R.id.optionsAddImage).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
-                if((ContextCompat.checkSelfPermission( getApplicationContext(), Manifest.permission.READ_EXTERNAL_STORAGE))
-                        != PackageManager.PERMISSION_GRANTED){
-                    ActivityCompat.requestPermissions(
-                            CreateNoteActivity.this,
-                            new String[] {Manifest.permission.READ_EXTERNAL_STORAGE},
-                            REQUEST_STORAGE_PERMISSION_CODE
-                    );
-                }
-                else {
-                    selectImage();
-                }
-            }
-        });
+//        optionsLayout.findViewById(R.id.optionsAddImage).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+//                if((ContextCompat.checkSelfPermission( getApplicationContext(), Manifest.permission.READ_EXTERNAL_STORAGE))
+//                        != PackageManager.PERMISSION_GRANTED){
+//                    ActivityCompat.requestPermissions(
+//                            CreateNoteActivity.this,
+//                            new String[] {Manifest.permission.READ_EXTERNAL_STORAGE},
+//                            REQUEST_STORAGE_PERMISSION_CODE
+//                    );
+//                }
+//                else {
+//                    selectImage();
+//                }
+//            }
+//        });
 
 //        optionsLayout.findViewById(R.id.optionsAddURL).setOnClickListener(new View.OnClickListener() {
 //            @Override

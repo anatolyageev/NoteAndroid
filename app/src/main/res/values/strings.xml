@@ -2,7 +2,7 @@
     <string name="app_name">NoteAgeev</string>
     <string name="search_notes">Search your notes</string>
     <string name="note_subtitle" translatable="false">Note Subtitle</string>
-    <string name="header" translatable="false">My Notes</string>
+    <string name="header" translatable="false">Notes</string>
     <string name="add_note_text">Type note here ...</string>
     <string name="options">Options</string>
     <string name="pick_color">Pick Color</string>

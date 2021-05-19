@@ -148,62 +148,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/optionsAddImage"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_35sdp"
-        android:layout_marginStart="@dimen/_10sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginEnd="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_3sdp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="@dimen/_25sdp"
-            android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_image"
-            app:tint="@color/colorIcons" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:fontFamily="@font/ubuntu_medium"
-            android:includeFontPadding="false"
-            android:text="@string/add_image"
-            android:textColor="@color/colorIcons"
-            android:textSize="@dimen/_13ssp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/optionsAddURL"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_35sdp"
-        android:layout_marginStart="@dimen/_10sdp"
-        android:layout_marginTop="@dimen/_3sdp"
-        android:layout_marginEnd="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_10sdp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="@dimen/_25sdp"
-            android:layout_height="@dimen/_25sdp"
-            android:src="@drawable/ic_web_link"
-            app:tint="@color/colorIcons" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:fontFamily="@font/ubuntu_medium"
-            android:includeFontPadding="false"
-            android:text="@string/add_url"
-            android:textColor="@color/colorIcons"
-            android:textSize="@dimen/_13ssp" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/deleteNote"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
