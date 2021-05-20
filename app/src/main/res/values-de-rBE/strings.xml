@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteAgeev</string>
+    <string name="search_notes">Suchen Sie Ihre Notizen</string>
+    <string name="note_subtitle">Hinweis Untertitel</string>
+    <string name="add_note_text">Geben Sie hier eine Notiz ein</string>
+    <string name="options">Optionen</string>
+    <string name="pick_color">Farbe wählen</string>
+    <string name="note_title_hint">"10 / 5000 Translation results Titel beachten "</string>
+    <string name="cancel_url_btn_text">STORNIEREN</string>
+    <string name="delete_note">Hinweis löschen</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Möchten Sie diese Notiz wirklich löschen?</string>
+    <string name="new_note">Notiz hinzufügen</string>
+</resources>
