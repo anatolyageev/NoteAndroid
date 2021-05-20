@@ -23,6 +23,8 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Patterns;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -46,9 +48,6 @@ public class MainActivity extends AppCompatActivity  implements NotesListener {
 
     private int noteClickedPosition = -1;
     private String searchText;
-
-    private AlertDialog dialogURL;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -134,6 +133,23 @@ public class MainActivity extends AppCompatActivity  implements NotesListener {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         if((intent.resolveActivity(getPackageManager()) != null)){
             startActivityForResult(intent,REQUEST_SELECT_IMAGE_CODE);
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.top_app_bar,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.settings:
+                startActivityForResult(new Intent(this, SettingsActivity.class), 3);
+                return true;
+            default:
+                return false;
         }
     }
 
